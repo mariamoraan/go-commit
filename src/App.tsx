@@ -1,9 +1,8 @@
-import React from 'react';
-import { CommitForm } from './features/commits/ui/components/commit-form/CommitForm';
+import { CommitPage } from './features/commits/ui/pages/commit-page/CommitPage';
 
 const App = () => {
   return (
-    <CommitForm />
+    <CommitPage />
   )
 }
 

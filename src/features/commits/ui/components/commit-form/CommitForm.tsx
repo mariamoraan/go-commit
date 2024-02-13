@@ -3,6 +3,7 @@ import styles from './CommitForm.module.css'
 export const CommitForm = () => {
     const labels = [
         {name: 'type', label: 'Type', type: 'text'},
+        {name: 'scope', label: 'Scope', type: 'text'},
         {name: 'description', label: 'Description', type: 'text'},
         {name: 'body', label: 'Body', type: 'text'},
         {name: 'footer', label: 'Footer', type: 'text'},
@@ -21,6 +22,7 @@ export const CommitForm = () => {
                     </>
                 ))
             }
+            <input type="submit" value="Generate Commit" />
         </form>
     )
 }
